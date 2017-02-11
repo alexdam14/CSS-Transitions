@@ -1,0 +1,225 @@
+* { margin: 0;
+padding: 0;	
+}
+
+.box {
+	width: 300px;
+	height: 130px;
+	float: left;
+	position: absolute;
+	margin-left: 14px;
+}
+
+.title {
+	width: 180px;
+	height: 86px;
+	background-color: #FF6600;
+	
+	transform: rotate(-6deg);
+	-o-transform: rotate(-6deg);
+	-ms-transform: rotate(-6deg);
+	-moz-transform: rotate(-6deg);
+	-webkit-transform: rotate(-6deg);
+	transition: all 0.3s linear;
+	
+
+}
+
+.title:hover{
+	transform: rotate(10deg);
+	margin-left: 60px;
+	width: 200px;
+	height: 106px;
+}
+
+.title:hover p{
+	font-size: 22px;
+}
+
+
+.title p {
+	font-family: "Tahoma", "Calibri";
+	font-size: 16px;
+	text-align: center;
+	padding-top: 35px;
+	text-shadow: -1.3px -1.3px 1.3px;
+	color: #fff;
+	transition: all 0.3s linear;
+}
+
+.meniu {
+	background-color: #e0e0e0;
+	margin-left: 320px;
+	margin-top: 20px;
+	width: 1000px;
+	height: 50px;
+	background-color: #e0e0e0;
+}
+.meniu ul{
+	line-height: 50px;
+}
+.meniu li{
+	list-style-type: none;
+	float: left;
+	position: relative;
+	background-color: #e0e0e0;
+	transition: all 0.3s linear;
+}
+.meniu ul li a {
+	text-align: center;
+	text-decoration: none;
+	height: 50px;
+	width: 250px;
+	display: block;
+	font-size: 18px;
+	font-family: "Tahoma" , "Calibri";
+	color: #000;
+}
+.meniu ul ul{
+	position: absolute;
+	visibility: hidden;
+	top: 50px;
+}
+.meniu ul li:hover ul{
+	visibility: visible;
+}
+.meniu ul li:hover{
+	background-color: grey;
+}
+
+.ragecomic {
+	float:left;
+	margin-top: 130px;
+	width: 50%;	
+	height: 300px;
+	    
+}
+
+.spinner {
+  float: left;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  margin-top: 70px;
+  margin-left: 10px;
+  overflow: hidden;
+}
+
+.bila1 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #CCCCFF;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: bounce 2.0s infinite ease-in-out;
+  -o-animation: bounce 2.0s infinite ease-in-out;
+  -moz-animation: bounce 2.0s infinite ease-in-out;
+  -ms-animation: bounce 2.0s infinite ease-in-out;
+  -webkit-animation: bounce 2.0s infinite ease-in-out;  
+}
+
+.bila2 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #FF6600;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: bounce 2.0s infinite ease-in-out;
+  -o-animation: bounce 2.0s infinite ease-in-out;
+  -moz-animation: bounce 2.0s infinite ease-in-out;
+  -ms-animation: bounce 2.0s infinite ease-in-out;
+  -webkit-animation: bounce 2.0s infinite ease-in-out; 
+  animation-delay: -1.0s;
+  -o-animation-delay: -1.0s;
+  -moz-animation-delay: -1.0s;
+  -ms-animation-delay: -1.0s;
+  -webkit-animation-delay: -1.0s;  
+}
+
+@-o-keyframes bounce {
+  0%, 100% { -o-transform: scale(0.0) }
+  50% { -o-transform: scale(1.0) }
+}
+
+@-moz-keyframes bounce {
+  0%, 100% { -moz-transform: scale(0.0) }
+  50% { -moz-transform: scale(1.0) }
+}
+
+@-ms-keyframes bounce {
+  0%, 100% { -ms-transform: scale(0.0) }
+  50% { -ms-transform: scale(1.0) }
+}
+
+@-webkit-keyframes bounce {
+  0%, 100% { -webkit-transform: scale(0.0) }
+  50% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes bounce {
+  0%, 100% { 
+    transform: scale(0.0);
+    -o-transform: scale(0.0);
+    -moz-transform: scale(0.0);
+    -ms-transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  } 50% { 
+    transform: scale(1.0);
+    -o-transform: scale(1.0);
+    -moz-transform: scale(1.0);
+    -ms-transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+  }
+}
+
+.ragecomic img {
+	width: 150px;
+	height: 140px;
+	margin-top: 100px;
+	transition: all 1s linear;
+	-o-transition: all 1s linear;
+	-moz-transition: all 1s linear;
+	-ms-transition: all 1s linear;
+	-webkit-transition: all 1s linear;
+	
+}
+
+.ragecomic:hover img {
+	transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	margin-left: 300px;
+};
+
+.yea {
+	float:right;
+	margin-top: 130px;
+	width: 50%;	
+	height: 100px;
+	 
+}
+
+.yea img {
+	width: 150px;
+	height: 150px;
+	margin-top: 210px;
+	transition: all 4s linear;
+	-o-transition: all 4s linear;
+	-moz-transition: all 4s linear;
+	-ms-transition: all 4s linear;
+	-webkit-transition: all 4s linear;
+}
+
+.yea img:hover {
+  	margin-top: 3000px;
+  	margin-left: 800px;
+}
+
